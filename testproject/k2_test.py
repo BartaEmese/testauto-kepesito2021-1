@@ -24,6 +24,10 @@ test_color = driver.find_element_by_id("testColor")
 # assert random_color.get_attribute("values") in all_color_list
 
 
+def test_tc01():
+    for color in all_color_list:
+        assert color in all_color_list
+
 # El lehet indítani a játékot a start gommbal.
 
 #     Ha elindult a játék akkor a stop gombbal le lehet állítani.
