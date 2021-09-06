@@ -34,6 +34,8 @@ def test_tc02():
     button = driver.find_element_by_id("spin")
     button.click()
 
+    driver.quit()
+
 
 # Új játékot tudunk indítani
 

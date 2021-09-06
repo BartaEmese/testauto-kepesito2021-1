@@ -25,6 +25,8 @@ def test_tc01():
     time.sleep(1)
     assert flex_child.text == "!"# $%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 
+    driver.quit()
+
 # Megjelenik egy érvényes művelet:
 
 #     chr megző egy a fenti ABCs műveleti táblából származó karaktert tartalmaz
